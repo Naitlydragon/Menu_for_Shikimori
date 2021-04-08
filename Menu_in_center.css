@@ -1,11 +1,11 @@
-/*если не нравится меню только по центру / if you don't like the menu only in the center*/
+/*меню в центре / menu in center*/
 .l-top_menu-v2 {
-    padding: 0 300px; /*удалить это / remove this code*/
+    padding: 0 300px;
 
 
 }
 .l-top_menu-v2 {
-	padding: 0 300px; /*удалить это / remove this code*/
+	padding: 0 300px;
 
 }
 
@@ -26,7 +26,7 @@
 }
 .l-top_menu-v2 .menu-dropdown.profile > span img {
     height: 30px;
-    pointer-events: none;
+    pointer-events: none; /*круглый аватар / round avatar*/
     border-radius: 100%;
 }
 
@@ -35,7 +35,7 @@
     color: #fe9329; /*цвет текста / text color*/
 	border-radius: 5px 5px 5px 5px; /*скругление углов в выпадающее меню / round corners to dropdown menu*/
 	border: solid 2px;
-	background: linear-gradient(90deg, rgba(254,147,41,0.79) 0%, rgba(48,48,48,0.75) 8%, rgba(48,48,48,0.75) 		93%, rgba(254,147,41,0.75) 100%); 
+	background: linear-gradient(90deg, rgba(254,147,41,0.79) 0%, rgba(48,48,48,0.75) 8%, rgba(48,48,48,0.75) 93%, rgba(254,147,41,0.75) 100%); 
 }
 .l-top_menu-v2 .submenu {
 background: #303030a8 /*выпадающее меню не прозрачность / dropdown menu is not transparent*/
