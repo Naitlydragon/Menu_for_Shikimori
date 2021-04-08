@@ -1,0 +1,52 @@
+.l-top_menu-v2 .menu-dropdown.profile > span img {
+    height: 30px;
+    pointer-events: none; /*круглый аватар / round avatar*/
+    border-radius: 100%;
+}
+
+/*Выпадающее меню цвет / Dropdown menu color*/
+.l-top_menu-v2 .submenu > a.active {
+    color: #fe9329; /*цвет текста / text color*/
+	border-radius: 5px 5px 5px 5px; /*скругление углов в выпадающее меню / round corners to dropdown menu*/
+	border: solid 2px;
+	background: linear-gradient(90deg, rgba(254,147,41,0.79) 0%, rgba(48,48,48,0.75) 8%, rgba(48,48,48,0.75) 93%, rgba(254,147,41,0.75) 100%); 
+}
+.l-top_menu-v2 .submenu {
+background: #303030a8 /*выпадающее меню не прозрачность / dropdown menu is not transparent*/
+
+}
+
+.l-top_menu-v2 {
+box-shadow: 0 2px 10px 5px rgb(52, 52, 52); /*тень под меню  / shadow under the menu*/
+}
+.l-top_menu-v2 .menu-dropdown > span {
+    background: #0000
+}
+
+.l-top_menu-v2 .menu-icon:hover {
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+    background-color: #61666d;
+    color: #fe9329;
+}
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span {
+    color: #fe9329;
+}
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:first-child {
+	color: #50ff00a3;
+}
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:first-child {
+    color: #50ff00cf;
+}
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:nth-child(2n) {
+	color: #ff5f5fc4;
+}
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:nth-child(2n) {
+ color: #ff5f5f
+}
+.l-top_menu-v2 .submenu > a.icon-mail span.unread span:nth-child(3n) {
+	color: #82c1f9;
+}
+.l-top_menu-v2 .submenu > a.icon-mail:hover span.unread span:nth-child(3n) {
+    color: #0c8dff;
+}
