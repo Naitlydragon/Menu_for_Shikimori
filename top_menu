@@ -1,0 +1,25 @@
+.l-top_menu-v2 {
+    padding: 0 300px;
+
+
+}
+.l-top_menu-v2 {
+	padding: 0 300px;
+
+}
+
+@media screen and (max-width: 1600px) {
+    .l-top_menu-v2 {
+		padding:0 200px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .l-top_menu-v2 {
+		padding: 0 100px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .l-top_menu-v2 {
+		padding: 0 0px;
+    }
+}
